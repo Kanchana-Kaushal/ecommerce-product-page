@@ -93,7 +93,7 @@ function ImageSlider(props) {
       <AnimatePresence>
         {props.viewSlide && (
           <motion.div
-            className="absolute inset-0 top-0 z-40 hidden h-50 md:block"
+            className="absolute inset-0 top-25 z-40 hidden h-50 md:block"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0 }}
