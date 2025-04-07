@@ -59,7 +59,7 @@ function App() {
               </h1>
               <p className="text-Dark-grayish-blue">{product.description}</p>
 
-              <div className="flex items-center justify-between space-y-4 md:block">
+              <div className="flex items-center justify-between md:block md:space-y-4">
                 <div className="flex items-center gap-4">
                   <p className="text-Very-dark-blue text-3xl font-extrabold">{`$${(product.currentPriceCents / 100).toFixed(2)}`}</p>
                   <p className="bg-Very-dark-blue text-Light-grayish-blue rounded-sm px-1 text-sm">{`${product.discountRate}%`}</p>
