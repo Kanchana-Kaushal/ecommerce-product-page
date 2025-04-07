@@ -94,7 +94,7 @@ function App() {
                 </div>
 
                 <button
-                  className="bg-Orange shadow-Orange flex w-full cursor-pointer items-center justify-center gap-4 rounded-md p-4 font-bold shadow-2xl hover:opacity-80"
+                  className="bg-Orange shadow-Orange flex w-full cursor-pointer items-center justify-center gap-4 rounded-md p-4 font-bold shadow-2xl transition-all duration-75 ease-in hover:opacity-80 active:scale-95"
                   onClick={addToCart}
                   aria-label="Add selected quantity of product to cart"
                 >
